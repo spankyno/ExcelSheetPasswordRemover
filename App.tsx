@@ -240,10 +240,23 @@ function App() {
         </main>
         
         {/* Page Footer */}
-        <footer className="mt-12 mb-6 text-center">
+        <footer className="mt-12 mb-6 text-center space-y-2">
           <p className="text-sm text-slate-400 font-medium">
             © {new Date().getFullYear()} Aitor Sánchez Gutiérrez - Todos los derechos reservados
           </p>
+          <div className="flex items-center justify-center gap-4 text-xs text-slate-400">
+            <a href="mailto:blog.cottage627@passinbox.com" className="hover:text-blue-500 transition-colors">
+              Contacto
+            </a>
+            <span>·</span>
+            <a href="https://aitorblog.infinityfreeapp.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
+              Blog
+            </a>
+            <span>·</span>
+            <a href="https://aitorhub.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
+              Más apps
+            </a>
+          </div>
         </footer>
       </div>
     </div>
