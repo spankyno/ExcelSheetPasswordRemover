@@ -249,7 +249,7 @@ function App() {
               Contacto
             </a>
             <span>·</span>
-            <a href="https://aitorblog.infinityfreeapp.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
+            <a href="https://aitorsanchez.pages.dev/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
               Blog
             </a>
             <span>·</span>
