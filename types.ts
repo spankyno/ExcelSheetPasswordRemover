@@ -1,6 +1,6 @@
 export interface SheetInfo {
-  id: string; // Typically the file path inside the zip, e.g., "xl/worksheets/sheet1.xml"
-  name: string; // Display name (filename)
+  id: string;
+  name: string;
   isProtected: boolean;
   selected: boolean;
 }
@@ -10,4 +10,9 @@ export type AppStatus = 'idle' | 'analyzing' | 'ready_to_unlock' | 'processing' 
 export interface ProcessedFile {
   fileName: string;
   blob: Blob;
+}
+
+export interface UsageRecord {
+  date: string; // YYYY-MM-DD
+  count: number;
 }
