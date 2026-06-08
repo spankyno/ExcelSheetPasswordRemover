@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 
 const STORAGE_KEY = 'excel_remover_usage';
-const GUEST_DAILY_LIMIT = null; // null = unlimited for guests
-const USER_DAILY_LIMIT = 2;
+const GUEST_DAILY_LIMIT = 2;   // 2 usos al día para invitados
+const USER_DAILY_LIMIT = null; // null = ilimitado para registrados
 
 interface UsageData {
   date: string;
